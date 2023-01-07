@@ -1,5 +1,5 @@
 footer {
-  background-image: url(/img/footer.png);
+  background-image: url(../img/footer.png);
   height: 667px;
   background-position: center;
   background-size: cover;
@@ -7,12 +7,12 @@ footer {
 .footer__block {
   max-width: 1400px;
   display: flex;
-  justify-content: space-around;
-  padding-left: 260px;
+  justify-content: space-evenly;
+  padding-left: 69px;
+  padding-right: 69px;
   padding-top: 200px;
 }
 .footer__top {
-  padding-left: 220px;
   margin-top: -36px;
 }
 .footer__text-top {
