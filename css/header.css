@@ -61,6 +61,7 @@
   font-size: 22px;
   line-height: 26px;
   letter-spacing: 0.05em;
+  color: #ffffff;
 }
 .introductory-block {
   display: flex;
@@ -96,7 +97,7 @@
   margin-top: 61px;
 }
 .block__enroll {
-  background-image: url(/img/Vector.svg);
+  background-image: url(../img/Vector.svg);
   background-repeat: no-repeat;
   background-position: left;
   width: 345px;

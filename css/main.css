@@ -96,8 +96,8 @@
   color: #1d1d1a;
   margin-left: 26px;
 }
-.block__enroll-2 {
-  background-image: url(/img/vector2.svg);
+.block-enroll {
+  background-image: url(../img/vector2.svg);
   background-repeat: no-repeat;
   background-position: left;
   width: 345px;
@@ -107,7 +107,7 @@
   padding-left: 63px;
   margin-top: 34px;
 }
-.enroll__link2 {
+.link {
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 600;
@@ -117,6 +117,6 @@
   text-transform: uppercase;
   color: #1d1d1a;
 }
-.enroll__link2:hover {
+.link:hover {
   color: #b68c6e;
 }

@@ -106,6 +106,13 @@ footer {
   color: #ffffff;
 }
 .callback__number1 {
+  font-family: "Kudryashev Bold";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 26px;
+  letter-spacing: 0.05em;
+  color: #ffffff;
   display: block;
   padding-top: 17px;
 }
