@@ -1,0 +1,122 @@
+.main {
+  height: 1027px;
+  display: flex;
+}
+.main__block {
+  margin-left: -290px;
+}
+.main__header {
+  font-family: "Kudryashev Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 88.5677px;
+  line-height: 105%;
+  letter-spacing: 4.95979px;
+  text-transform: uppercase;
+  color: #312c38;
+}
+.what {
+  font-family: "Kudryashev Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 88.5677px;
+  line-height: 105%;
+  letter-spacing: 4.95979px;
+  text-transform: uppercase;
+  color: #312c38;
+  margin-top: 140px;
+  margin-left: -155px;
+}
+.problems {
+  font-family: "Kudryashev Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 76.7587px;
+  line-height: 105%;
+  letter-spacing: 4.95979px;
+  text-transform: uppercase;
+  color: #b68c6e;
+  margin-top: 10px;
+}
+.procedure {
+  width: 510px;
+  height: 28px;
+  left: 979px;
+  top: 1179px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 105%;
+  text-transform: uppercase;
+  color: #312c38;
+  margin-top: 11px;
+}
+.main__text {
+  max-height: 280px;
+  display: flex;
+  margin-top: 60px;
+  margin-left: -83px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+}
+.problem {
+  display: flex;
+}
+.oval {
+  margin-left: 26px;
+}
+.lips {
+  margin-top: 55px;
+}
+.the-chin {
+  margin-top: 55px;
+  margin-left: 53px;
+}
+.tips {
+  margin-top: 55px;
+}
+.face {
+  margin-top: 55px;
+  margin-left: 26px;
+}
+.problem__img {
+  width: 52px;
+  height: fit-content;
+}
+.problem__text {
+  max-width: 226px;
+  height: fit-content;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 164.9%;
+  color: #1d1d1a;
+  margin-left: 26px;
+}
+.block__enroll-2 {
+  background-image: url(/img/vector2.svg);
+  background-repeat: no-repeat;
+  background-position: left;
+  width: 345px;
+  height: 161px;
+  display: flex;
+  align-items: center;
+  padding-left: 63px;
+  margin-top: 34px;
+}
+.enroll__link2 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 30px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #1d1d1a;
+}
+.enroll__link2:hover {
+  color: #b68c6e;
+}

@@ -1,0 +1,115 @@
+footer {
+  background-image: url(/img/footer.png);
+  height: 667px;
+  background-position: center;
+  background-size: cover;
+}
+.footer__block {
+  max-width: 1400px;
+  display: flex;
+  justify-content: space-around;
+  padding-left: 260px;
+  padding-top: 200px;
+}
+.footer__top {
+  padding-left: 220px;
+  margin-top: -36px;
+}
+.footer__text-top {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+}
+.footer__menu {
+  padding-left: 89px;
+}
+.menu-name {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 140%;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.menu__chapter {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
+  color: #ffffff;
+  margin-top: 17px;
+}
+.block-contacts {
+  min-width: 280px;
+  margin-left: 162px;
+}
+.footer__text-address {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  margin-top: 13px;
+}
+.map {
+  display: block;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-decoration-line: underline;
+  color: #ffffff;
+  margin-top: 14px;
+}
+.contact__text {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 150%;
+  color: #ffffff;
+  margin-top: 18px;
+}
+.email {
+  display: block;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  color: #ffffff;
+  margin-top: 10px;
+}
+.footer__contacts {
+  max-width: 152px;
+  display: flex;
+  margin-top: 11px;
+  justify-content: space-around;
+}
+.block-callback {
+  padding-top: 30px;
+  padding-left: 74px;
+}
+.telephone {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 150%;
+  color: #ffffff;
+}
+.callback__number1 {
+  display: block;
+  padding-top: 17px;
+}
+.callback-menu__call {
+  display: block;
+  padding-top: 22px;
+}

@@ -1,0 +1,120 @@
+.top {
+  background-image: url(/img/TopFoto.jpg);
+  height: 828px;
+  background-position: center;
+  background-size: cover;
+}
+.header {
+  display: flex;
+  height: 109px;
+}
+.header_logo {
+  width: 282px;
+  height: 109px;
+}
+.header__text {
+  display: flex;
+  align-items: center;
+  padding-left: 28px;
+}
+.header__text-top {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 158.9%;
+  color: #ffffff;
+}
+.header__text-address {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 22px;
+  color: #ffffff;
+  padding-left: 34px;
+}
+.header__contacts {
+  display: flex;
+}
+.header__contacts-icons {
+  display: flex;
+  gap: 38px;
+  padding-top: 37px;
+  padding-left: 239px;
+}
+.contacts-icons {
+  color: #ffffff;
+  width: 25px;
+}
+.callback-menu {
+  padding-top: 33px;
+  padding-left: 34px;
+}
+.callback-menu__call {
+  color: #ffffff;
+}
+.callback-menu__number {
+  font-family: "Kudryashev Bold";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 26px;
+  letter-spacing: 0.05em;
+}
+.introductory-block {
+  display: flex;
+}
+.introductory-block__title {
+  font-family: "Kudryashev Headline";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 131.2%;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-top: 34px;
+}
+.introductory-block__title2 {
+  font-family: "Kudryashev Headline";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 131.2%;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.introductory-block__text {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 164.9%;
+  color: #ffffff;
+  margin-top: 61px;
+}
+.block__enroll {
+  background-image: url(/img/Vector.svg);
+  background-repeat: no-repeat;
+  background-position: left;
+  width: 345px;
+  height: 161px;
+  display: flex;
+  align-items: center;
+  padding-left: 63px;
+}
+.enroll__link {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 30px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.introductory-block__image {
+  padding-left: 350px;
+}

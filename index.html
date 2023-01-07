@@ -12,6 +12,10 @@
     />
     <link rel="stylesheet" href="/css/style.css" type="text/css" />
     <link rel="stylesheet" href="/css/normalize.css" type="text/css" />
+    <link rel="stylesheet" href="/css/header.css" type="text/css" />
+    <link rel="stylesheet" href="/css/main.css" type="text/css" />
+    <link rel="stylesheet" href="/css/block-form.css" type="text/css" />
+    <link rel="stylesheet" href="/css/footer.css" type="text/css" />
   </head>
   <body>
     <div class="top center">
@@ -19,19 +23,19 @@
         <a class="header__logo" href="index.html">
           <img src="img/logo.svg" alt="Логотип" />
         </a>
-        <div class="text__header">
-          <p class="text__top">
+        <div class="header__text">
+          <p class="header__text-top">
             Нитевой лифтинг лица
             <br />
             в Санкт-Петербурге
           </p>
-          <p class="text__address">
+          <p class="header__text-address">
             Санкт-Петербург,
             <br />
             пр. Просвещения, д.33, корп.2
           </p>
         </div>
-        <nav class="contacts">
+        <nav class="header__contacts">
           <ul class="header__contacts-icons">
             <li class="contacts-icons">
               <a href="#"><img src="img/Vk.svg" alt="Vk" /></a>
@@ -43,14 +47,14 @@
               <a href="#"><img src="img/WhatsApp.svg" alt="WhatsApp" /></a>
             </li>
           </ul>
-          <ul class="callback__menu">
+          <ul class="callback-menu">
             <li>
-              <a class="callback number" href="tel:+79219676188">
+              <a class="callback-menu__number" href="tel:+79219676188">
                 +7 (921) 967-61-88
               </a>
             </li>
             <li>
-              <a class="callback" href="#callback">
+              <a class="callback-menu__call" href="#callback">
                 <img src="img/call.svg" alt="Звонок" />
               </a>
             </li>
@@ -58,39 +62,163 @@
         </nav>
       </header>
       <section class="introductory-block">
-        <h1 class="introductory-block__title">
-          Нитевой
-          <br />
-          лифтинг кожи
-          <br />
-          лица и шеи
-        </h1>
-        <p class="introductory-block__text">
-          Позвольте себе выглядеть
-          <br />
-          моложе на
-          <strong>5 лет</strong>
-        </p>
-        <a class="introductory-block__link" href="#">Записаться</a>
+        <div>
+          <h1 class="introductory-block__title">
+            Нитевой
+            <strong class="introductory-block__title2">
+              лифтинг кожи
+              <br />
+              лица и шеи
+            </strong>
+          </h1>
+          <p class="introductory-block__text">
+            Позвольте себе выглядеть
+            <br />
+            моложе на
+            <strong>5 лет</strong>
+          </p>
+          <div class="block__enroll">
+            <img src="img/Arrow.png" alt="стрелка" />
+            <a class="enroll__link" href="#">Записаться</a>
+          </div>
+        </div>
+        <div class="introductory-block__image">
+          <img src="./img/pointsTop.png" alt="Точки" />
+        </div>
       </section>
     </div>
-    <main class="main__unit center">
-      <div class="img__main">
-        <img src="img/FotoMain.png" alt="" />
-        <img src="img/Problem.svg" alt="" />
+    <main class="main center">
+      <div class="main__img">
+        <img src="./img/Problem.png" alt="девушка" />
       </div>
-      <div class="main__header">
-        <h2 class="what_problems">какие проблемы</h2>
-        <p class="procedure">решает процедура</p>
-        <div class="text__main">
-          <p class="text">Мелкие и глубокие морщины</p>
-          <p class="text">Носогубные складки</p>
-          <p class="text">Опущение кончиков губ и бровей</p>
-          <p class="text">Обвисание кожи и нечеткий овал</p>
-          <p class="text">Наличие брылей и второго подбородка</p>
-          <p class="text">Ассиметрия лица</p>
+      <div class="main__block">
+        <div class="main__header">
+          <h3 class="what">какие</h3>
+          <h3 class="problems">проблемы</h3>
+          <p class="procedure">решает процедура</p>
+        </div>
+        <div class="main__text">
+          <div class="problem wrinkles">
+            <img class="problem__img" src="img/icons/wrinkles.svg" alt="" />
+            <p class="problem__text">Мелкие и глубокие морщины</p>
+          </div>
+          <div class="problem oval">
+            <img class="problem__img" src="img/icons/oval.svg" alt="" />
+            <p class="problem__text">Обвисание кожи и нечеткий овал</p>
+          </div>
+          <div class="problem lips">
+            <img class="problem__img" src="img/icons/lips.svg" alt="" />
+            <p class="problem__text">Носогубные складки</p>
+          </div>
+          <div class="problem the-chin">
+            <img class="problem__img" src="img/icons/theСhin.svg" alt="" />
+            <p class="problem__text">Наличие брылей и второго подбородка</p>
+          </div>
+          <div class="problem tips">
+            <img class="problem__img" src="img/icons/tips.svg" alt="" />
+            <p class="problem__text">Опущение кончиков губ и бровей</p>
+          </div>
+          <div class="problem face">
+            <img class="problem__img" src="img/icons/face.svg" alt="" />
+            <p class="problem__text">Ассиметрия лица</p>
+          </div>
+        </div>
+        <div class="block__enroll-2">
+          <img src="img/Arrow2.png" alt="стрелка" />
+          <a class="enroll__link2" href="#">Записаться</a>
         </div>
       </div>
     </main>
+    <section class="block-form center">
+      <div>
+        <h3 class="block-form__title">
+          Станьте моложе на 5
+          <br />
+          лет за 1 процедуру
+        </h3>
+        <p class="block-form__text">
+          Запишитесь на процедуру и получите рекомендации от Доктора Медицинских
+          Наук по нитевым методикам для вашего лица бесплатно!
+        </p>
+      </div>
+      <form class="form">
+        <input type="text" placeholder="ваше имя" />
+        <input type="tel" placeholder="ваш телефон" />
+        <button>записаться со скидкой</button>
+      </form>
+    </section>
+    <footer>
+      <div class="footer__block">
+        <div class="footer__top">
+          <a class="footer__logo" href="index.html">
+            <img src="img/logo.svg" alt="Логотип" />
+          </a>
+          <p class="footer__text-top">
+            Нитевой лифтинг лица
+            <br />
+            в Санкт-Петербурге
+          </p>
+        </div>
+        <div class="footer__menu">
+          <p class="menu-name">Меню</p>
+          <ul class="menu">
+            <li class="menu__chapter">Стоимость онлайн</li>
+            <li class="menu__chapter">О компании</li>
+            <li class="menu__chapter">Отзывы</li>
+            <li class="menu__chapter">Фото салона</li>
+            <li class="menu__chapter">Специалисты</li>
+            <li class="menu__chapter">Контакты</li>
+          </ul>
+        </div>
+        <div class="block-contacts">
+          <p class="menu-name">Контакты</p>
+          <p class="footer__text-address">
+            Санкт-Петербург,
+            <br />
+            пр. Просвещения, д.33, корп.2
+          </p>
+          <a class="map" href="#">Посмотреть на карте</a>
+          <p class="contact__text">Эл. почта</p>
+          <a class="email" href="milto:artbeauty@inbox.ru">
+            artbeauty@inbox.ru
+          </a>
+          <p class="contact__text">Соц сети:</p>
+          <div>
+            <ul class="footer__contacts">
+              <li class="footer__contacts-icons">
+                <a href="#"><img src="img/facebook.svg" alt="facebook" /></a>
+              </li>
+              <li class="footer__contacts-icons">
+                <a href="#"><img src="img/vk2.svg" alt="vk" /></a>
+              </li>
+              <li class="footer__contacts-icons">
+                <a href="#"><img src="img/insta.svg" alt="Instagram" /></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="block-callback">
+          <p class="telephone">Телефон:</p>
+          <ul class="footer__callback-menu">
+            <li>
+              <a class="callback__number1" href="tel:+79219676188">
+                +7 (921) 967-61-88
+              </a>
+            </li>
+            <li>
+              <a class="callback__number1" href="tel:+79219676188">
+                +7 (821) 967-61-88
+              </a>
+            </li>
+            <li>
+              <a class="callback-menu__call" href="#callback">
+                <img src="img/call.svg" alt="Звонок" />
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div></div>
+    </footer>
   </body>
 </html>

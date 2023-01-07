@@ -1,0 +1,105 @@
+.block-form {
+  background-image: url(/img/imgForm.png);
+  height: 960px;
+  background-position: center;
+  background-size: cover;
+}
+.block-form__title {
+  width: 521px;
+  height: 126px;
+  left: 248px;
+  top: 1897px;
+  font-family: "Kudryashev Headline";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 128.5%;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #b68c6e;
+  padding-top: 162px;
+}
+.block-form__text {
+  width: 521px;
+  height: 139px;
+  left: 248px;
+  top: 2045px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 203%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-top: 150px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 21px;
+}
+input {
+  border: 1px solid #504339;
+  width: 497px;
+  height: 93px;
+  background-color: transparent;
+  outline: none;
+  margin-top: 22px;
+}
+input[type="text"] {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 184.5%;
+  text-transform: uppercase;
+  color: #504339;
+  padding-left: 32px;
+  padding-right: 32px;
+}
+input[type="tel"] {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 184.5%;
+  text-transform: uppercase;
+  color: #504339;
+  padding-left: 32px;
+  padding-right: 32px;
+}
+::placeholder {
+  width: 278px;
+  height: 30px;
+  left: 292px;
+  top: 2258px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 184.5%;
+  text-transform: uppercase;
+  color: #504339;
+  padding-left: 32px;
+  padding-right: 32px;
+}
+button {
+  border: 1px solid #504339;
+  width: 497px;
+  height: 93px;
+  background-color: transparent;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 184.5%;
+  text-align: center;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-top: 22px;
+}
+button:hover {
+  color: #504339;
+}
